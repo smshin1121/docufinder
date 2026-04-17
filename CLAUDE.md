@@ -55,8 +55,7 @@ Anything/
 │   ├── types/              # api, error, search, settings 타입 정의
 │   ├── utils/              # cleanPath, formatRelativeTime, invokeWithTimeout
 │   └── index.css           # 테마 CSS 변수 (라이트/다크)
-├── .github/workflows/      # CI (TypeScript 빌드 + Rust check/test/clippy)
-└── .claude/memory/         # Memory Bank (컨텍스트 유지)
+└── .github/workflows/      # CI (TypeScript 빌드 + Rust check/test/clippy)
 ```
 
 ## 기술 스택
@@ -111,9 +110,8 @@ Anything/
 
 | 문서 | 설명 |
 |------|------|
-| [PLAN.md](PLAN.md) | 상세 설계 계획 |
-| [BUILD_GUIDE.md](BUILD_GUIDE.md) | 빌드 가이드 |
-| [DEPLOYMENT.md](DEPLOYMENT.md) | 배포 가이드 |
+| [README.md](README.md) | 프로젝트 소개 |
+| [CHANGELOG.md](CHANGELOG.md) | 변경 이력 |
 | [DESIGN.md](DESIGN.md) | 디자인 시스템 |
 
 ## 코딩 컨벤션

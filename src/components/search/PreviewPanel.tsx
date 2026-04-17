@@ -10,6 +10,7 @@ import { Badge, getFileTypeBadgeVariant } from "../ui/Badge";
 import { TagInput } from "../ui/TagInput";
 import type { AiAnalysis } from "../../types/search";
 import { extractLegalReferences } from "../../utils/legalReference";
+import { cleanPath } from "../../utils/cleanPath";
 import { useUIContext } from "../../contexts/UIContext";
 
 // ─── Types ─────────────────────────────────────────────
@@ -852,9 +853,9 @@ export const PreviewPanel = memo(function PreviewPanel({
       <div
         className="px-3 py-1.5 border-t text-[10px] text-[var(--color-text-muted)] truncate"
         style={{ borderColor: "var(--color-border)" }}
-        title={filePath}
+        title={cleanPath(filePath)}
       >
-        {filePath}
+        {cleanPath(filePath)}
       </div>
     </div>
   );
